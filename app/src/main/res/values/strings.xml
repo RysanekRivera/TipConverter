@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TipConverter</string>
+    <string name="percent_15">15%</string>
+    <string name="percent_18">18%</string>
+    <string name="percent_20">20%</string>
+    <string name="other_percent">other</string>
+    <string name="tip">Tip:</string>
+    <string name="tip_calculator">Tip Calculator</string>
+    <string name="split_min_1">1</string>
+    <string name="split_by">Split:</string>
+    <string name="total">Total:</string>
+    <string name="tip_percent">Custom Tip %</string>
+    <string name="currency_converter">Currency Converter</string>
+    <string name="calculate">Calculate</string>
+    <string name="bill_total">Bill Total</string>
+</resources>

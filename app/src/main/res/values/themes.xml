@@ -1,0 +1,109 @@
+<resources xmlns:parent="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TipConverter" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryLight</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorPrimary</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaryLight</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/transparent</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@null</item>
+
+    </style>
+
+    <style name="Theme.HomeFragment" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/homeColorPrimary</item>
+        <item name="colorPrimaryVariant">@color/homeColorPrimaryLight</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/homeColorPrimary</item>
+        <item name="colorSecondaryVariant">@color/homeColorPrimaryLight</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/transparent</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@null</item>
+
+    </style>
+
+    <style name="cardViewStyleCut" parent="Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialCardView</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MaterialCardView">
+        <item name="cornerFamily">cut</item>
+        <item name="cardCornerRadius">@dimen/cardview_cut_corner_size</item>
+        <item name="cornerSize">@dimen/cardview_cut_corner_size</item>
+        <item name="android:shadowColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="cardViewStyleRound" parent="Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlayRound</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlayRound" parent="ShapeAppearanceOverlay.MaterialCardView">
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeTopLeft">@dimen/cardview_rounded_corner_size</item>
+        <item name="cornerSizeTopRight">@dimen/cardview_rounded_corner_size</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+    
+    <style name="NumberPicker.Cardview.CutStyle" parent="cardViewStyleCut">
+        <item name="cardCornerRadius">10dp</item>
+        <item name="background">@color/transparent</item>
+    </style>
+
+    <style name="cardViewStyleRound.AllSides" parent="ShapeAppearanceOverlay.MaterialCardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlayRoundAllSides</item>
+    </style>
+    
+    <style name="TextBoxCut.AllSides" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="shapeAppearanceOverlay">@style/TexBoxCut</item>
+    </style>
+    
+    <style name="TexBoxCut" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlayRoundAllSides" parent="ShapeAppearanceOverlayRound">
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerSizeTopRight">10dp</item>
+        <item name="cornerSizeTopLeft">10dp</item>
+        <item name="cornerSizeBottomLeft">10dp</item>
+        <item name="cornerSizeBottomRight">10dp</item>
+        <item name="android:shadowColor">@color/colorPrimary</item>
+    </style>
+    
+    <style name="MaterialButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="iconGravity">textStart</item>
+        <item name="android:gravity">center</item>
+        <item name="iconPadding">0dp</item>
+        <item name="iconTint">@color/colorPrimary</item>
+    </style>
+    
+    <style name="ChipCustomStyle" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="checkedIconEnabled">false</item>
+        <item name="checkedIcon">@null</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="chipBackgroundColor">@drawable/chip_states</item>
+        <item name="android:foreground">@color/transparent</item>
+        <item name="rippleColor">@color/chip_color</item>
+        <item name="color">@color/chip_color</item>
+       
+    </style>
+</resources>

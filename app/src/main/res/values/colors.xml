@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    //Tip Calculator Colors
+    <color name="colorPrimary">#ff1424</color>
+    <color name="colorPrimaryLight">#ff5f4f</color>
+    <color name="colorAccent">#442C2E</color> //c30000
+    <color name="transparent">#00000000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    //Home Fragment Color
+   <color name="homeColorPrimary">#4a148c</color>
+   <color name="homeColorPrimaryLight">#7c43bd</color>
+   <color name="homeColorAccent">#12005e</color>
+
+    //Backgrounds
+    <color name="layout_background">#66ff5f4f</color> //40% primaryLight
+    <color name="card_background">#4Dff5f4f</color> //30% primaryLight
+    <color name="card_stroke_background">@color/white</color> //20% primaryLight
+
+    //System Bars
+    <color name="navigation_bar_color">#01ff5f4f</color> //01% colorPrimaryLight
+    <color name="status_bar_color">#01f7cd47</color>
+
+    //Overlays
+    <color name="gradient_overlay_color">#4Dff1424</color> //20% colorPrimary
+
+    //EditText Input
+    <color name="text_input_hint_color">@color/colorAccent</color>
+
+    //EditText Stroke
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">@color/colorPrimary</color>
+    <color name="box_stroke_color">@color/mtrl_textinput_default_box_stroke_color</color>
+    
+    //Chip Color
+    <color name="chip_color">#4Dff5f4f</color>
+</resources>
